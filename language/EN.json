@@ -186,8 +186,8 @@
             "SONG_DESC": "Uploads the song you wrote.",
             "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song Naadan Vibe```",
             "NO_RESULT": "*I couldn't find anything :(*",
-            "DOWNLOADING_SONG": "\n```🎼 Searching your song 🎶```\n",
-            "UPLOADING_SONG": "\n```🤹🏻‍♂️ Uploading 📲 Use 🎧```\n",
+            "DOWNLOADING_SONG": "\n```🎼 Kittumaayirikkum Wait Cheyy 🎶```\n",
+            "UPLOADING_SONG": "\n```🤹🏻‍♂️ Cheviyil samanam 📲 Vekk 🎧```\n",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
             "DOWNLOADING_VIDEO": "```Downloading...```",
@@ -196,7 +196,7 @@
             "NEED_WORDS": "```Please write a few words!```",
             "GETTING_VIDEOS": "```I'm bringing videos...```",
             "NOT_FOUND": "*Thappinokeett kittiyilla 🥲*",
-            "SEARCHING": "*🔎 Searching...*",
+            "SEARCHING": "*🔎 Povalle Thappatte...*",
             "WIKI_DESC": "Searches query on Wikipedia.",
             "IMG_DESC": "Searches for related pics on Google.",
             "IMG": "```Uploading photo``` *{}* ```number``` *{}*"
@@ -219,10 +219,10 @@
             "UPDATE": "*Your bot is completely up-to-date!*",
             "NEW_UPDATE": "*Minnu mwol Update Available*\n\n please ask support group before updating. Otherwise chance to get error\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "```Update cheyyatte...👻```",
+            "UPDATING": "```Povalle Update cheyyatte...👻```",
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
             "UPDATED": "*Update cheyth🤠✅*",
-            "UPDATED_LOCAL": "*✅ Successfully Updated!*",
+            "UPDATED_LOCAL": "*✅ Annaa Ellam Oky Ayi!*",
             "AFTER_UPDATE": "*👰 minnu mwol Restarting*"
         },
         "weather": {
