@@ -204,7 +204,7 @@
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```Wait cheyy ippo taram```"
+            "DOWNLOADING": "```Wait 👁️‍🗨️ cheyy ippo taram✔️```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
@@ -221,9 +221,9 @@
             "UPDATE_NOW_DESC": "It makes updates.",
             "UPDATING": "```Povalle Update cheyyatte...👻```",
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
-            "UPDATED": "*Update cheyth🤠✅*",
+            "UPDATED": "*Update Kazinju🧚‍♀️✅*",
             "UPDATED_LOCAL": "*✅ Annaa Ellam Oky Ayi!*",
-            "AFTER_UPDATE": "*👰 minnu mwol Restarting*"
+            "AFTER_UPDATE": "*👰 Minnu mwol Restarting*"
         },
         "weather": {
             "WEATHER_DESC": "Shows the weather.",
@@ -278,7 +278,7 @@
             "TITLE": "Title",
             "PUBLICATION": "Publication",
             "SONGL": "Link",
-            "NEED_SONG": "Song name para nenba 🥲.",
+            "NEED_SONG": "Song name para mandhabudhi 🥲.",
             "NOT_FOUNDS" : "No such songs found!",
             "JOOX_DESC": "Brings you the song details and a link for it.",
             "LYRICS_DESC": "Brings you the song Lyrics.",
