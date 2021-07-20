@@ -105,13 +105,13 @@ Asena.addCommand({ pattern: 'igstalk ?(.*)', fromMe: true, desc: Lang.DESC }, (a
 	if (match[0].includes('install')) return;
         if (match[1] === '') return await message.client.sendMessage(message.jid, Lang.NEED_WORD, MessageType.text, { quoted: message.data });
         if (!match[1].includes('www.instagram.com')) return await message.client.sendMessage(message.jid, Lang.NEED_WORD, MessageType.text, { quoted: message.data });
-
+	
         let urls = `https://api.xteam.xyz/dl/igstalk?url=${match[1]}&APIKEY=82d4dc815ab1fd4c`
         var response = await got(urls) 
         const json = JSON.parse(response.body);
 
         if (json.status === false) return await message.client.sendMessage(message.jid, Lang.NOT_FOUND, MessageType.text, { quoted: message.data });
-
+        
         if (json.code === 403) return await message.client.sendMessage(message.jid, '```API Error!```', MessageType.text, { quoted: message.data });
 
         await message.client.sendMessage(message.jid, Tlang.DOWN, MessageType.text, { quoted: message.data });
