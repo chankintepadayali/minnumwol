@@ -545,7 +545,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         if (config.NO_ONLINE) {
             await conn.updatePresence(msg.key.remoteJid, Presence.unavailable);
         }
-        // ==================== Greetings ========================
+        // ==================== Greetings =====================
         if (msg.messageStubType === 32 || msg.messageStubType === 28) {
 
             // Görüşürüz Mesajı
