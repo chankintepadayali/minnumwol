@@ -187,7 +187,7 @@
             "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song Naadan Vibe```",
             "NO_RESULT": "*I couldn't find anything :(*",
             "DOWNLOADING_SONG": "\n*✎﹏sᴇᴀʀᴄʜɪɴɢ﹏﹏𝅘𝅥𝅮𝅘𝅥𝅯𝆺𝅥𝅯﹏﹏﹏﹏𝄞*\n",
-            "UPLOADING_SONG": "\nılı.lıllılı.ıllı.ıllıllıılı.lıllılı.ıllı.ıllıllı\n0:35 ━━●────────── -5:33\nVOLUME              ▁ ▂ ▃ ▄ ▅ ▆ ▇\n",
+            "UPLOADING_SONG": "\nılı.lıllılı.ıllı.ıllıllıılı.lıllılı.ıllı.ıllıllı.ılı\n0:35 ━━●────────── -5:33\n*⇆        ◁ㅤㅤ ❚❚ㅤㅤ ▷        ↻*\nVOLUME              ▁ ▂ ▃ ▄ ▅ ▆ ▇\n",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
             "DOWNLOADING_VIDEO": "```Downloading🗨️...```",
