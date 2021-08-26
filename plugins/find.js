@@ -12,7 +12,7 @@ const ffmpeg = require('fluent-ffmpeg');
 
 Asena.addCommand({pattern: 'find', fromMe: false, desc: 'Shazam plugin'}, (async (message, match) => {
 
-    if (message.reply_message === false) return await message.client.sendMessage(message.jid, 'replay to a audio!', MessageType.text);
+    if (message.reply_message === false) return await message.client.sendMessage(message.jid, 'Audiokk Reply Ayakk!', MessageType.text);
 
     var filePath = await message.client.downloadAndSaveMediaMessage({
 
