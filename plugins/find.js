@@ -32,7 +32,7 @@ Asena.addCommand({pattern: 'find', fromMe: false, desc: 'Shazam plugin'}, (async
 
     ffmpeg(filePath).format('mp3').save('music.mp3').on('end', async () => {
 
-        form.append('api_token', '67c852bc4e91e51ce6fc78514ae1d82c');
+        form.append('api_token', '1c2f6aafdfe7a0a793c2c8ab103a730b');
 
         form.append('file', fs.createReadStream('./music.mp3'));
 
