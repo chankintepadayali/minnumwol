@@ -57,7 +57,7 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
 
             return;
         } 
-        if (!!message.mention && message.mention[0] == '918075379950@s.whatsapp.net') {
+
         if (!!message.mention && message.mention[0] == '919633090467@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/Fayas.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
@@ -121,7 +121,7 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
     if(Config.BGMFILTER){
     let banned = jid.find( Jid => Jid === message.jid);
     if(banned !== undefined) return
-    if (!!message.mention && message.mention[0] == '91860759500@s.whatsapp.net') {
+    if (!!message.mention && message.mention[0] == '918075379950@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./stickers/mention.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
     }
 const array = ['Hii','ee','Da','food','Hlo','para','love u','set','sed','jada','Saidali','Hi','sad','don','Loki','nee','bye','ara','Goodnight','kittilla','Mm','Msd','Njan','nirtheda','nan','parupadi','pm','poda','podi','song','va','Aysheri','ha','set','Comady','ne','Uploding','mathi','e','Ponu','Hlo','Ara','vazha','Eda']
