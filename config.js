@@ -31,7 +31,7 @@ module.exports = {
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
     MUTEMSG: process.env.MUTE_MESSAGE === undefined ? 'default' : process.env.MUTE_MESSAGE,
-
+    BOT: process.env.BOT_NAME === undefined ? '𝙻𝙸𝚉𝙰 𝙼𝚆𝙾𝙻' : process.env.BOT_NAME,
     BGMFILTER: process.env.BGM_FILTER === undefined ? false : convertToBool(process.env.BGM_FILTER),
     DISBGM: process.env.DISABLE_JID_BGM_FILTER === undefined ? false : process.env.DISABLE_JID_BGM_FILTER,
     NOLOG: process.env.NO_LOG === undefined ? 'false' : process.env.NO_LOG,
