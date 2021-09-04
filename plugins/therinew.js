@@ -46,7 +46,7 @@ notheri()
 var ldc = ''
 if (Config.LANG == 'AZ') ldc = '*Bağlantı Aşkarlandı!*'
 if (Config.LANG == 'TR') ldc = '*‎Link Tespit Edildi!*'
-if (Config.LANG == 'EN') ldc = '*Sorry Ur Using Bad Words* \n ❗️ *But Not Allowed This Group* \n *Oky Bei All the best* 😅😅'
+if (Config.LANG == 'EN') ldc = '\n ```According to the rules of the group``` \n\n ```YouTube link, group link, bad words Etc. are not allowed``` \n\n ```You have been removed for not following the group rules \n'
 if (Config.LANG == 'ML') ldc = '*ലിങ്ക് കണ്ടെത്തി!*'
 if (Config.LANG == 'ID') ldc = '*Tautan Terdeteksi!*'
 if (Config.LANG == 'PT') ldc = '*Link Detectado!*'
@@ -58,13 +58,13 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
         let regex1 = new RegExp('thayoli')
         let regex2 = new RegExp('thaayoli')
         let regex3 = new RegExp('thayolli')
-        let regex4 = new RegExp('nude')
+        let regex4 = new RegExp('https://bit.ly/')
         let regex5 = new RegExp('boobs')
-        let regex6 = new RegExp('mia')
+        let regex6 = new RegExp('https://chat.whatsapp.com/')
         let regex7 = new RegExp('poori')
         let regex8 = new RegExp('Sexy')
         let regex9 = new RegExp('sexy')
-        let regex10 = new RegExp('xnxx')
+        let regex10 = new RegExp('https://youtu.be/')
         let regex11 = new RegExp('sex')
         if (regex1.test(message.message)) {
             var us = await checkUsAdmin(message)
