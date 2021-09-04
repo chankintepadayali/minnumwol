@@ -436,7 +436,7 @@ else if (Config.WORKTYPE == 'public') {
 
             await message.client.sendMessage(
 
-                message.jid, Config.BOTPLK + '\n\n ```If you want to have your own bot, watch this video``` \n\n ```https://youtu.be/JzTpSfw6jcM``` \n\n  \n' + CMD_HELP, MessageType.text,{quoted: message.data}
+                message.jid, Config.BOT + '\n\n ```If you want to have your own bot, watch this video``` \n\n ```https://youtu.be/JzTpSfw6jcM``` \n\n  \n' + CMD_HELP, MessageType.text,{quoted: message.data}
 
             );
 
