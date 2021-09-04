@@ -66,37 +66,37 @@ if (Config.WORKTYPE == 'private') {
 
                     if (command.desc == '' && !command.usage == '' && command.warn == '') {
 
-                        CMD_HELP += '```➢ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n' + '*. ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
+                        CMD_HELP += '```➢ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.EXAMPLE + ':``` ```' + command.usage + '```\n\n\n';
 
                     }
 
                     if (!command.desc == '' && command.usage == '' && command.warn == '') {
 
-                        CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n' + '*. ' + Lang.DESC + ':* ```' + command.desc + '``` \n\n';
+                        CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.DESC + ':``` ```' + command.desc + '``` \n\n\n';
 
                     }
 
                     if (command.desc == '' && command.usage == '' && !command.warn == '') {
 
-                        CMD_HELP += '```➢ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n' + '*. ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
+                        CMD_HELP += '```➢ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.WARN + ':``` ```' + command.warn + '```\n\n\n'
 
                     }
 
                     if (!command.desc == '' && !command.usage == '' && command.warn == '') {
 
-                        CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n' + '*. ' + Lang.DESC + ':* ```' + command.desc + '``` \n' + '*⌨️ ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
+                        CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.DESC + ':``` ```' + command.desc + '``` \n\n' + '```⌨️ ' + Lang.EXAMPLE + ':``` ```' + command.usage + '```\n\n\n';
 
                     }
 
                     if (!command.desc == '' && command.usage == '' && !command.warn == '') {
 
-                        CMD_HELP += '```➢ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n' + '*. ' + Lang.DESC + ':* ```' + command.desc + '``` \n' + '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
+                        CMD_HELP += '```➢ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.DESC + ':``` ```' + command.desc + '``` \n\n' + '```⚠️ ' + Lang.WARN + ':``` ```' + command.warn + '```\n\n\n'
 
                     }
 
                     if (command.desc == '' && !command.usage == '' && !command.warn == '') {
 
-                        CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n' + '*. ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n' + '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
+                        CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.EXAMPLE + ':``` ```' + command.usage + '```\n\n' + '```⚠️ ' + Lang.WARN + ':``` ```' + command.warn + '```\n\n\n'
 
                     }
 
@@ -108,7 +108,7 @@ if (Config.WORKTYPE == 'private') {
 
                     if  (!command.desc == '' && !command.usage == '' && !command.warn == '') {
 
-                        CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n' + '*. ' + Lang.DESC + ':* ```' + command.desc + '``` \n' + '*⌨️ ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n' + '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
+                        CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.DESC + ':``` ```' + command.desc + '``` \n\n' + '```⌨️ ' + Lang.EXAMPLE + ':``` ```' + command.usage + '```\n\n' + '```⚠️ ' + Lang.WARN + ':``` ```' + command.warn + '```\n\n\n'
 
                     }
 
@@ -168,37 +168,37 @@ if (Config.WORKTYPE == 'private') {
 
                         if (command.desc == '' && !command.usage == '' && command.warn == '') {
 
-                        CMD_HELP += '```➢ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n' + '*. ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
+                        CMD_HELP += '```➢ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.EXAMPLE + ':``` ```' + command.usage + '```\n\n\n';
 
                         }
 
                         if (!command.desc == '' && command.usage == '' && command.warn == '') {
 
-                            CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n' + '*. ' + Lang.DESC + ':* ```' + command.desc + '``` \n\n';
+                            CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.DESC + ':``` ```' + command.desc + '``` \n\n\n';
 
                         }
 
                         if (command.desc == '' && command.usage == '' && !command.warn == '') {
 
-                            CMD_HELP += '```➢ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n' + '*. ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
+                            CMD_HELP += '```➢ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.WARN + ':``` ```' + command.warn + '```\n\n\n'
 
                         }
 
                         if (!command.desc == '' && !command.usage == '' && command.warn == '') {
 
-                            CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n' + '*. ' + Lang.DESC + ':* ```' + command.desc + '``` \n' + '*⌨️ ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
+                            CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.DESC + ':``` ```' + command.desc + '``` \n\n' + '```⌨️ ' + Lang.EXAMPLE + ':``` ```' + command.usage + '```\n\n\n';
 
                         }
 
                         if (!command.desc == '' && command.usage == '' && !command.warn == '') {
 
-                            CMD_HELP += '```➢ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n' + '*. ' + Lang.DESC + ':* ```' + command.desc + '``` \n' + '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
+                            CMD_HELP += '```➢ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.DESC + ':``` ```' + command.desc + '``` \n\n' + '```⚠️ ' + Lang.WARN + ':``` ```' + command.warn + '```\n\n\n'
 
                         }
 
                         if (command.desc == '' && !command.usage == '' && !command.warn == '') {
 
-                            CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n' + '*. ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n' + '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
+                            CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.EXAMPLE + ':``` ```' + command.usage + '```\n\n' + '```⚠️ ' + Lang.WARN + ':``` ```' + command.warn + '```\n\n\n'
 
                         }
 
@@ -210,7 +210,7 @@ if (Config.WORKTYPE == 'private') {
 
                         if  (!command.desc == '' && !command.usage == '' && !command.warn == '') {
 
-                            CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n' + '*. ' + Lang.DESC + ':* ```' + command.desc + '``` \n' + '*⌨️ ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n' + '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
+                            CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.DESC + ':``` ```' + command.desc + '``` \n\n' + '```⌨️ ' + Lang.EXAMPLE + ':``` ```' + command.usage + '```\n\n' + '```⚠️ ' + Lang.WARN + ':``` ```' + command.warn + '```\n\n\n'
 
                         }
 
@@ -278,37 +278,37 @@ else if (Config.WORKTYPE == 'public') {
 
                     if (command.desc == '' && !command.usage == '' && command.warn == '') {
 
-                        CMD_HELP += '```➢ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n' + '*. ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
+                        CMD_HELP += '```➢ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.EXAMPLE + ':``` ```' + command.usage + '```\n\n\n';
 
                     }
 
                     if (!command.desc == '' && command.usage == '' && command.warn == '') {
 
-                        CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n' + '*. ' + Lang.DESC + ':* ```' + command.desc + '``` \n\n';
+                        CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.DESC + ':``` ```' + command.desc + '``` \n\n\n';
 
                     }
 
                     if (command.desc == '' && command.usage == '' && !command.warn == '') {
 
-                        CMD_HELP += '```➢ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n' + '*. ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
+                        CMD_HELP += '```➢ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.WARN + ':``` ```' + command.warn + '```\n\n\n'
 
                     }
 
                     if (!command.desc == '' && !command.usage == '' && command.warn == '') {
 
-                        CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n' + '*. ' + Lang.DESC + ':* ```' + command.desc + '``` \n' + '*⌨️ ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
+                        CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.DESC + ':``` ```' + command.desc + '``` \n\n' + '```⌨️ ' + Lang.EXAMPLE + ':``` ```' + command.usage + '```\n\n\n';
 
                     }
 
                     if (!command.desc == '' && command.usage == '' && !command.warn == '') {
 
-                        CMD_HELP += '```➢ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n' + '*. ' + Lang.DESC + ':* ```' + command.desc + '``` \n' + '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
+                        CMD_HELP += '```➢ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.DESC + ':``` ```' + command.desc + '``` \n\n' + '```⚠️ ' + Lang.WARN + ':``` ```' + command.warn + '```\n\n\n'
 
                     }
 
                     if (command.desc == '' && !command.usage == '' && !command.warn == '') {
 
-                        CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n' + '*. ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n' + '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
+                        CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.EXAMPLE + ':``` ```' + command.usage + '```\n\n' + '```⚠️ ' + Lang.WARN + ':``` ```' + command.warn + '```\n\n\n'
 
                     }
 
@@ -320,7 +320,7 @@ else if (Config.WORKTYPE == 'public') {
 
                     if  (!command.desc == '' && !command.usage == '' && !command.warn == '') {
 
-                        CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n' + '*. ' + Lang.DESC + ':* ```' + command.desc + '``` \n' + '*⌨️ ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n' + '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
+                        CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.DESC + ':``` ```' + command.desc + '``` \n\n' + '```⌨️ ' + Lang.EXAMPLE + ':``` ```' + command.usage + '```\n\n' + '```⚠️ ' + Lang.WARN + ':``` ```' + command.warn + '```\n\n\n'
 
                     }
 
@@ -380,37 +380,37 @@ else if (Config.WORKTYPE == 'public') {
 
                         if (command.desc == '' && !command.usage == '' && command.warn == '') {
 
-                        CMD_HELP += '```➢ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n' + '*. ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
+                        CMD_HELP += '```➢ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.EXAMPLE + ':``` ```' + command.usage + '```\n\n\n';
 
                         }
 
                         if (!command.desc == '' && command.usage == '' && command.warn == '') {
 
-                            CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n' + '*. ' + Lang.DESC + ':* ```' + command.desc + '``` \n\n';
+                            CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.DESC + ':``` ```' + command.desc + '``` \n\n\n';
 
                         }
 
                         if (command.desc == '' && command.usage == '' && !command.warn == '') {
 
-                            CMD_HELP += '```➢ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n' + '*.' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
+                            CMD_HELP += '```➢ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n\n' + '```.' + Lang.WARN + ':``` ```' + command.warn + '```\n\n\n'
 
                         }
 
                         if (!command.desc == '' && !command.usage == '' && command.warn == '') {
 
-                            CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n' + '*. ' + Lang.DESC + ':* ```' + command.desc + '``` \n' + '*⌨️ ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
+                            CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.DESC + ':``` ```' + command.desc + '``` \n\n' + '```⌨️ ' + Lang.EXAMPLE + ':``` ```' + command.usage + '```\n\n\n';
 
                         }
 
                         if (!command.desc == '' && command.usage == '' && !command.warn == '') {
 
-                            CMD_HELP += '```➢ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n' + '*. ' + Lang.DESC + ':* ```' + command.desc + '``` \n' + '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
+                            CMD_HELP += '```➢ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.DESC + ':``` ```' + command.desc + '``` \n\n' + '```⚠️ ' + Lang.WARN + ':``` ```' + command.warn + '```\n\n\n'
 
                         }
 
                         if (command.desc == '' && !command.usage == '' && !command.warn == '') {
 
-                            CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n' + '*. ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n' + '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
+                            CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.EXAMPLE + ':``` ```' + command.usage + '```\n\n' + '```⚠️ ' + Lang.WARN + ':``` ```' + command.warn + '```\n\n\n'
 
                         }
 
@@ -422,7 +422,7 @@ else if (Config.WORKTYPE == 'public') {
 
                         if  (!command.desc == '' && !command.usage == '' && !command.warn == '') {
 
-                            CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n' + '*. ' + Lang.DESC + ':* ```' + command.desc + '``` \n' + '*⌨️ ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n' + '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
+                            CMD_HELP += '```➣ ' + Lang.COMMAND + ':``` ```' + (cmatch.length >= 3 ? (HANDLER + cmmatch) : command.pattern) + '```\n\n' + '```. ' + Lang.DESC + ':``` ```' + command.desc + '``` \n\n' + '```⌨️ ' + Lang.EXAMPLE + ':``` ```' + command.usage + '```\n\n' + '```⚠️ ' + Lang.WARN + ':``` ```' + command.warn + '```\n\n\n'
 
                         }
 
