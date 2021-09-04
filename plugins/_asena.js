@@ -224,7 +224,7 @@ if (Config.WORKTYPE == 'private') {
 
             await message.client.sendMessage(
 
-                message.jid, Config.BOTPLK + '\n\n ```AT YOUR SERVICE``` \n\n ```If you want to have your own bot, watch this video: https://youtu.be/JzTpSfw6jcM``` \n\n  \n' + CMD_HELP, MessageType.text,{quoted: message.data}
+                message.jid, Config.BOT + '\n\n ```AT YOUR SERVICE``` \n\n ```If you want to have your own bot, watch this video: https://youtu.be/JzTpSfw6jcM``` \n\n  \n' + CMD_HELP, MessageType.text,{quoted: message.data}
 
             );
 
