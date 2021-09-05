@@ -68,7 +68,6 @@ if(pattern.test(message.message)){
         await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/' + a + '.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,contextInfo: { forwardingScore: 10, isForwarded: true },quoted : message.data, ptt: true})
 
 }
-}
 });
 
     var filtreler = await FilterDb.getFilter(message.jid);
